@@ -97,13 +97,14 @@ header .nav-left {
   color: white;
   font-weight: 700;
   font-size: 20px;
+  border: 0;
 }
 .hero .hero-left .hero-left-gap .hero-button {
   margin-left: 3%;
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px 2px hsl(0, 0%, 91%);
   color: hsl(240, 0%, 41%);
-  border: 0px ;
+  border: 0;
 }
 .hero .hero-right {
   width: 53%;
@@ -235,6 +236,7 @@ hr {
   color: white;
   font-weight: 700;
   font-size: 20px;
+  border: 0;
 }
 /* .tab1 .tab1-left .tab1-left-gap .tab1-button{
    margin-left: 3%;
@@ -348,6 +350,7 @@ section .container button {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+  border: 0;
 }
 section .container1 {
   margin-top: 2%;
@@ -404,6 +407,10 @@ section .container3 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.question-section .question img{
+  height: 12px;
+}
+
 .question-section button {
   padding: 10px;
   border-radius: 5px;
@@ -464,7 +471,7 @@ section .container3 {
 footer{
     height: 200px;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* background: hsl(229, 18%, 69%); */
     display: flex;
     justify-content: space-between;
@@ -561,6 +568,15 @@ footer .foter-right{
         width: 90%;
 
       }
+      .hero .hero-right .hero-color {
+        margin-top: 20%;
+        height: 90%;
+        width: 70%;
+        white-space: 200px;
+        /* border: 2px solid rgb(204, 62, 37);  */
+        background-color: hsl(231, 69%, 60%);
+        border-radius: 90px 0 0 90px;
+      }
       .after-hero {
         /* border: 2px solid red; */
         text-align: center;
@@ -581,6 +597,7 @@ footer .foter-right{
         line-height: 20px;
         font-weight: 400;
         color: hsl(240, 0%, 41%);
+        
       }
 
 
@@ -640,7 +657,8 @@ footer .foter-right{
         font-size: 12px;
         color: hsl(240, 0%, 41%);
         padding-bottom: 3%;
-        line-height: 30px;
+        /* line-height: 30px; */
+        line-height: 1.2;
       }
       .maintab .tab1 .tab1-left .tab1-left-gap button {
         display: none;
@@ -666,19 +684,16 @@ footer .foter-right{
         width: 100%;
       }
       .maintab .tab1 .tab1-right .tab1-color {
-        margin-top: 30%;
+        margin-top: 20%;
         height: 70%;
         width: 70%;
         white-space: 200px;
       }
-      
-
-
       .after-tab {
         padding-top: 6%;
         /* border: 2px solid red; */
         text-align: center;
-        margin-top: 0;
+        margin-top: 12%;
       }
       .after-tab h3 {
         /* border: 2px solid red; */
@@ -695,6 +710,7 @@ footer .foter-right{
         line-height: 32px;
         font-weight: 400;
         color: hsl(240, 0%, 41%);
+        line-height: 1.2;
       }
       
       section {
@@ -725,7 +741,8 @@ footer .foter-right{
         margin-left: 10%;
         margin-right: 10%;
         font-size: 12px;
-      
+        line-height: 1.2;
+        
       }
       
       .question-section {
@@ -819,13 +836,13 @@ footer .foter-right{
       
       
       footer{
-          height: 200px;
+          height: 250px;
           width: 100%;
-          border: 2px solid blue;
+          /* border: 2px solid blue; */
           /* background: hsl(229, 18%, 69%); */
           display: flex;
           justify-content: space-between;
-          padding-top: 2%;
+          padding-top: 5%;
           background: hsl(229, 31%, 21%);
           flex-direction: column;
           text-align: center;
@@ -837,7 +854,7 @@ footer .foter-right{
           justify-content: space-around;
           width: 50%;
           flex-direction: column;
-          gap: 20px;
+          gap: 40px;
       }
       footer .foter-left ul{
           list-style: none;
@@ -847,7 +864,7 @@ footer .foter-right{
           text-transform: uppercase;
           flex-direction: column;
           justify-content: space-around;
-          gap: 20px;
+          gap: 30px;
           font-size: 12px;
           
       }
@@ -866,6 +883,7 @@ footer .foter-right{
           margin-right: 10%;
           justify-content: space-around;
           padding-left: 9%;
-          padding-bottom: 2%;
+          padding-bottom: 1%;
+          margin-bottom: 2%;
       }
 }
